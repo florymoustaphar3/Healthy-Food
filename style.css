@@ -165,6 +165,18 @@ h2::before{
     display: grid;
     grid-template-columns: repeat(2,50%);
     grid-template-areas: "text food";
-    margin: 3.5em;
+    margin: 4.1em;
+  }
+  .right-col{
+    grid-area: food;
+  }
+  img{
+    
+    grid-area: text;
+    
+  }
+  .Section-2 p{
+    text-align: left;
+    align-self: center;
   }
 }
