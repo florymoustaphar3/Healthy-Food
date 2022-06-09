@@ -96,6 +96,9 @@ input[type=button]:hover{
 .Section-2{
   margin : 0;
 }
+p{
+  line-height: var(--leading);
+}
 img{
   width: 100%;
 }
@@ -131,5 +134,37 @@ h2::before{
   .hero-bg {
     text-align: left; 
   }
- 
+  .hero-bg .form-container{
+    width: 65%;
+  }
+  .form-container{
+    margin: 2em;
+    padding: 1em;
+    border-radius: .6rem;
+    box-shadow: 10px 10px 10px gray;
+  }
+  form{
+    display: flex;
+  }
+  .form-left{
+    width: 72%;
+  }
+  input[type="button"]{
+    height: fit-content;
+    margin-top: 2.2em;
+    margin-right: 2em;
+    font-size: 1.1em;
+    padding: .6em;
+    width: 33%;
+  }
+  .hero-bg p{
+    margin-bottom: 0;
+    margin-left: 1;
+  }
+  .Section-2{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "text food";
+    margin: 3.5em;
+  }
 }
