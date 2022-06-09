@@ -1,5 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');*/
-/*Custom Property*/
+/*Custom Property */
 :root{
   --leading: 1.5em;
 }
@@ -123,4 +123,25 @@ h2::before{
   .form-container{
     margin: 2em --4em 0;
   }
+}
+@media (min-width: 930px) {
+  .hero-bg {
+    text-align: left;
+  }
+  .hero-bg p{
+    margin: 0 0 3em;
+  }
+  .hero-bg .form-container{
+    width: 65%;
+  }
+  .form-container{
+    border-radius: .6rem;
+    padding: 2em;
+    margin: 2em 0 0;
+    box-shadow: 10px 10px 10px rgb(117, 73, 19);
+  }
+  .form {
+    display: flex;
+  }
+  
 }
