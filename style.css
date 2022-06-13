@@ -171,12 +171,23 @@ h2::before{
     grid-area: food;
   }
   img{
-    
     grid-area: text;
-    
   }
   .Section-2 p{
     text-align: left;
     align-self: center;
   }
+}
+.section-1{
+  animation: fade 2s forwards;
+}
+@keyframes fade {
+  from{
+   opacity: 0;
+   transform: translateX(-2em);
+  }
+  to{
+    opacity: 1;
+  }
+
 }
